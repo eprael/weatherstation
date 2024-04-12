@@ -1,3 +1,25 @@
+#  CompTech 10 Term 2 Project - Raspberry Pi Pico Weather Station with LCD Display & WIFI
+#  By Evan Prael, Feb 15, 2024
+#
+#  This program runs on a Raspberry Pi Pico W, reads a weather sensor and displays that data
+#  on a LCD Screen. It also connects to WIFI and displays it on a web page. 
+# 
+#  Code and libraries used from these websites:
+#
+# web server, weather sensor:  
+# https://how2electronics.com/bme280-raspberry-pi-pico-w-web-server-weather-station/
+# https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf#page=22
+#
+# LCD display & fonts
+# https://diyprojectslab.com/raspberry-pi-pico-tft-lcd-touch-screen-tutorial/
+# https://github.com/rdagger/micropython-ili9341/tree/master
+#
+# Complete Project on Github
+# https://github.com/eprael/weatherstation
+#
+# Parts list on Amazon
+# https://www.amazon.ca/hz/wishlist/ls/19ZVP4QBNUOJP?viewType=grid
+
 # micropython libraries
 from machine import Pin, I2C, SPI       # pico board libraries
 import time, sys                        # system libraries
