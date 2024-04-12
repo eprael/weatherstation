@@ -1,5 +1,5 @@
 # Weather Station
-Weatherstation using a Raspberry Pi Pico W, a weather sensor, and an LCD screen.
+Weather station using a Raspberry Pi Pico W, a weather sensor, and an LCD screen.
 
-Please see <a target="_blank" href="/raw/main/project_writeup.pdf">project_writeup.pdf</a> for all related details
+See [project_writeup.pdf](project_writeup.pdf) for all the details (download first to access links in document).  
 
